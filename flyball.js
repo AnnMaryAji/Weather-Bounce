@@ -49,9 +49,9 @@ const icons = {
   night: `<svg width="40" height="40"><circle cx="25" cy="17" r="10" fill="#fdf5e6"/><circle cx="16" cy="24" r="5" fill="#191970" opacity="0.6"/><circle cx="33" cy="34" r="2" fill="#fff"/><circle cx="10" cy="33" r="1.5" fill="#fff"/></svg>`
 };
 
-const sndJump = new Audio('assets/jump.wav');
-const sndScore = new Audio('assets/score.wav');
-const sndHit = new Audio('assets/hit.wav');
+const sndJump = new Audio('jump.wav');
+const sndScore = new Audio('score.wav');
+const sndHit = new Audio('hit.wav');
 
 // Animated background objects
 let clouds = [];
@@ -527,4 +527,5 @@ function loop() {
     return;
   }
   requestAnimationFrame(loop);
+
 }
